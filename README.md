@@ -2,7 +2,7 @@
 
 Home Assistant Integration which adds sensors and actions for select Netgear routers to Home Assistant With HACS or Custom Component.
 
-_based on previous [work by roblandry](https://github.com/roblandry/netgear-enhanced-integration)._
+_based on previous work by [roblandry](https://github.com/roblandry/netgear-enhanced-integration) and [selfish](https://github.com/selfish/home-assistant-netgear-router-enhanced-integration)._
 
 ### Router model support:
 
