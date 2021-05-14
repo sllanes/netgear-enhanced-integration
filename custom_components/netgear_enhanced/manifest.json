@@ -1,0 +1,9 @@
+{
+  "domain": "netgear_enhanced",
+  "name": "Netgear Enhanced",
+  "documentation": "https://github.com/sllanes/netgear-enhanced-integration",
+  "dependencies": [],
+  "codeowners": [],
+  "requirements": ["pynetgear-enhanced==0.2.2"],
+  "version": "1.0.0"
+}
