@@ -9,6 +9,7 @@ _based on previous work by [roblandry](https://github.com/roblandry/netgear-enha
 _These are router which were tested and are known to work, add yours!_
 
 - XR500 (port 80)
+- R7000 (port 80)
 
 For models which use port 80, see [Setup](#setup) below.
 
@@ -44,7 +45,7 @@ _Note that you will need to restart Home Assistant after installion, whichever m
 ### Option 1 - HACS (recommended!):
 
 1. In HACS, go to Integrations, and then click the orange '+' button in the lower right corner to add an integration.
-1. Search for "Hubitat" and install it.
+1. Search for "Netgear Enhanced" and install it.
 
 ### Option 2 - Manual:
 
@@ -78,7 +79,7 @@ _Note that you will need to restart Home Assistant after installion, whichever m
 # Configuration.yaml:
 switch:
   - platform: netgear_enhanced
-    host: !secret my_secret_ip
+    host: !secret my_secret_netgear_ip
     username: !secret my_secret_netgear_user
     password: !secret my_secret_netgear_pass
     resources:
@@ -98,7 +99,7 @@ switch:
 # Configuration.yaml:
 sensor:
   - platform: netgear_enhanced
-    host: !secret my_secret_ip
+    host: !secret my_secret_netgear_ip
     username: !secret my_secret_netgear_user
     password: !secret my_secret_netgear_pass
     resources:
