@@ -1,4 +1,6 @@
 {
     "name": "Netgear Enhanced",
-    "render_readme": true
+    "render_readme": true,
+    "domains": [ "device_tracker", "sensor", "switch" ],
+    "iot_class": ["Local Polling"]
 }
