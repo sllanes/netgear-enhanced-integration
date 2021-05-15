@@ -2,20 +2,9 @@
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg?style=for-the-badge)](https://github.com/custom-components/hacs)
 
-Enhance Netgear integration for Home Assistant which adds sensors and switches for certain Netgear routers.
+Enhanced Netgear integration for Home Assistant which adds sensors and switches for Netgear routers.
 
-_based on previous work by [roblandry](https://github.com/roblandry/netgear-enhanced-integration) and [selfish](https://github.com/selfish/home-assistant-netgear-router-enhanced-integration)._
-
-### Router model support:
-
-_These are router which were tested and are known to work, add yours!_
-
-- XR500 (port 80)
-- R7000 (port 80)
-
-For models which use port 80, see [Setup](#setup) below.
-
----
+_Based on previous work by [roblandry](https://github.com/roblandry/netgear-enhanced-integration) and [selfish](https://github.com/selfish/home-assistant-netgear-router-enhanced-integration)._
 
 ## Features:
 
@@ -42,7 +31,7 @@ For models which use port 80, see [Setup](#setup) below.
 
 ## Setup
 
-_Note that you will need to restart Home Assistant after installion, whichever method is used._
+_Note that you will need to restart Home Assistant after installation, whichever method is used._
 
 ### Option 1 - HACS (recommended!):
 
@@ -133,3 +122,34 @@ sensor:
       - 5g_guest_wifi_info
       - get_smart_conn
 ```
+
+### Supported routers:
+
+- Netgear RAX80
+- Netgear Orbi
+- Netgear R7800
+- Netgear R7500v2
+- Netgear R7000
+- Netgear R6900
+- Netgear R6300
+- Netgear R6250
+- Netgear R6200
+- Netgear R6100
+- Netgear N300 - Model: C3000 (Port 80)
+- Netgear Centria (WNDR4700, WND4720)
+- Netgear WNDR4500
+- Netgear WNDR4300
+- Netgear WNDR4000
+- Netgear WNDR3800
+- Netgear WNDR3700v3
+- Netgear WNDR3700v2
+- Netgear WNDR3400v2
+- Netgear WNR3500Lv2
+- Netgear WNR2200
+- Netgear WNR2000v3
+- Netgear WNR2000v4 (Port 80)
+- Netgear WNR1500
+- Netgear WNR1000v2
+- Netgear WNR1000v3
+- Netgear WNDRMAC
+- Netgear WNR612v2
